@@ -15,6 +15,6 @@
 
 ## Сборка
 
-Открыть корневую папку в Android Studio с установленными Android SDK 35 и JDK 17. Проект использует Android Gradle Plugin 8.9.2; для сборки нужна версия Gradle 8.11.1. Через Android Studio: **Build → Build APK(s)**; или `gradle assembleDebug` при наличии Gradle 8.11.1. APK: `app/build/outputs/apk/debug/app-debug.apk`.
+Открыть корневую папку в Android Studio с установленными Android SDK 35 и JDK 17. Проект использует Android Gradle Plugin 8.9.2 и Gradle Wrapper 8.11.1. Через Android Studio: **Build → Build APK(s)**; или в терминале `./gradlew assembleDebug`. APK: `app/build/outputs/apk/debug/app-debug.apk`.
 
 Debug APK собран в рабочей среде с Android SDK 35, JDK 17 и Gradle 8.11.1. Запуск на Xiaomi 15 и корректность радиопоказаний на этом устройстве пока не проверены.

@@ -1,0 +1,9 @@
+<resources>
+    <style name="SignalScoutTheme" parent="android:style/Theme.Material.NoActionBar">
+        <item name="android:colorAccent">#F5F5F3</item>
+        <item name="android:statusBarColor">#242626</item>
+        <item name="android:navigationBarColor">#242626</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+</resources>
